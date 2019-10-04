@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
  
 }
 
@@ -81,6 +82,7 @@ header {
     
     width: 800px;
     margin: 0 auto;
+    
 }
 
 header nav {
@@ -309,3 +311,83 @@ footer nav a {
     text-decoration: none;
 }
 
+/* ABOUT PAGE CSS STARTS HERE
+*/
+
+.container-about-page{
+    width: 800px;
+     margin: 0 auto;
+   
+ }
+
+ .top-content-about{
+
+  }
+
+  .text-container-about{
+    padding:20px;
+    border-bottom:1px dashed black;
+    
+  }
+
+  .middle-content-about{
+    
+  display:flex;
+ 
+  flex-wrap: wrap;
+  }
+
+
+.boxes-about {
+    display:flex;
+    justify-content:space-evenly;
+    width:375px;
+    padding:35px;
+    margin:8px;
+    border-bottom: 1px dashed black;
+  
+}
+
+.boxes-about h1{
+   
+    margin-top:10px;
+}
+
+.boxes-about p{
+    padding-bottom:20px;
+}
+
+  /* .boxes-about {
+	display: flex;
+	flex-wrap:wrap;
+	align-content:space-around;
+  justify-content:center;
+	width:300px;
+	height:200px;
+	padding:20px;
+	margin: 20px;
+	border-bottom: 1px dashed black;
+	background-color: whitesmoke;
+}
+*/
+
+.LearnMoreButton{
+
+	display: flex;
+	text-align: center;
+	justify-content:center;
+    padding:10px;
+    color:black;
+    border: 2px solid black;
+    height:50px;
+    width:130px;
+	border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+  
+}
+.LearnMoreButton a{
+    color:black;
+}
+
+  
